@@ -47,7 +47,7 @@ Machine Learning Model 1: Logistic Regression
 
 The logistic regression model demonstrated remarkable performance, attaining a balanced accuracy of 96.8% and an overall accuracy of 99%. With a flawless precision of 1.00 and a recall of 0.99, its precision and recall ratings show that it is quite successful at recognising healthy loans (label 0). The model obtained a precision of 0.84 and a recall of 0.94 for high-risk loans (label 1), which is respectable but marginally less accurate because of the dataset's class imbalance.
 
-## Recommedation
+## Recommendation
 The logistic regression model is appropriate for forecasting loan statuses due to its strong overall performance. The program does a better job of detecting healthy loans than high-risk ones, though. If correctly forecasting high-risk loans is the company's top priority (label 1), additional steps like:
 
 either undersampling the dominant class or oversampling the minority class (e.g., SMOTE).
